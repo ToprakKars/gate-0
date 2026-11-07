@@ -6,6 +6,8 @@ Follow them – or don't. There are **5 endings**.
 
 🎮 **Play:** https://toprakkars.github.io/gate-0/
 
+![Gate 0 – opening scene](https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/gate-0.jpg)
+
 Based on "Gate 0", the first story series on my short-video channel **Two Paths** (Instagram / TikTok / YouTube), where viewers decide what happens next.
 
 ## Features
