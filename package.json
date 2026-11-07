@@ -1,0 +1,9 @@
+{
+  "name": "gate-0",
+  "version": "1.0.0",
+  "description": "Interactive rule-horror story game in the browser",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "author": "Toprak Arda Kars",
+  "license": "MIT"
+}

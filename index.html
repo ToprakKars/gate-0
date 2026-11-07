@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gate 0 – an interactive airport night story</title>
+  <meta name="description" content="A short choose-your-path rule-horror story. Follow the rules. Find all endings.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header>
+    <div class="board">
+      <span class="flap">GATE</span><span class="flap red">0</span>
+    </div>
+    <div class="meta">
+      <span id="clock">02:47</span>
+      <button id="rules-btn" hidden>RULES</button>
+      <button id="restart-btn">RESTART</button>
+    </div>
+  </header>
+
+  <main>
+    <p class="scene-text" id="text" aria-live="polite"></p>
+    <div class="choices" id="choices"></div>
+
+    <section class="ending" id="ending" hidden>
+      <p class="ending-type" id="ending-type"></p>
+      <h1 id="ending-title"></h1>
+      <button class="choice" id="again">Play again</button>
+    </section>
+
+    <div class="inventory" id="inventory"></div>
+  </main>
+
+  <footer>
+    <span>Endings found: <b id="found">0</b> / <b id="total">0</b></span>
+    <span class="dots" id="dots"></span>
+  </footer>
+
+  <dialog id="rules-dialog">
+    <h2>AIRPORT NIGHT RULES</h2>
+    <ol id="rules-list"></ol>
+    <form method="dialog"><button class="choice">Close</button></form>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
